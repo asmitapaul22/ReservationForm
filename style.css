@@ -1,0 +1,24 @@
+input{
+    height: 25px;
+    border: 1px solid rgb(206, 201, 201);
+}
+
+select{
+    height: 30px;
+    border: 1px solid rgb(206, 201, 201);
+    
+}
+textarea{
+    border: 1px solid rgb(206, 201, 201);
+}
+table{
+    border: 1px solid black;
+    padding: 40px 60px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+h4{
+    color: red;
+}
