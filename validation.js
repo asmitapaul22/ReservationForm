@@ -1,25 +1,3 @@
-// function emailValidation(inputtext, alertMsg){
-//     var emailExp = /^[w-.+]+@[a-zA-Z0-9.-]+.[a-zA-z0-9]{2,4}$/;
-//     if(inputtext.value.match(emailExp)){
-//     return true;
-//     }else{
-//     document.getElementById('p3').innerText = alertMsg;
-//     inputtext.focus();
-//     return false;
-//     }
-//     }
-//     function validateEmail(emailField){
-//         var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
-
-//         if (reg.test(emailField.value) == false) 
-//         {
-//             alert('Invalid Email Address');
-//             return false;
-//         }
-
-//         return true;
-
-// }
 function lettersOnly(input){
     var regex = /[^a-z\s]/gi;
     input.value = input.value.replace(regex,"");
